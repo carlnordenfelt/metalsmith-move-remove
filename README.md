@@ -7,8 +7,6 @@ $ npm install metalsmith-move-remove
 ```
 
 # Parameters
-* `dist`: CloudFront Distribution ID
-* `paths`: Array of paths to invalidate. All paths must start with `/`.
 * `move`: Array of objects with instructions for what to move and where
 * `remove`: Array of file regexp patterns to remove
 
