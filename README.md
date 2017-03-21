@@ -19,7 +19,7 @@ var moveRemove = require('metalsmith-move-remove');
 var metalsmith = new Metalsmith(__dirname)
   .use(moveRemove({
     move: [
-        { source: 'misplaced-file/index.html', target: 'correctly-placed-file.html' }]
+        { source: 'misplaced-file/index.html', target: 'correctly-placed-file.html' }
     ],
     remove: ['file-i-dont-want.html', 'another-file-i-dont-want']
   }))
